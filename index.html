@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SK8 Shop</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/1-tools/normalize.css">
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/1-tools/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/js/vegas.min.css">
+   </head>
+   <body>
+      <!-- Modal profile -->
+      <div id="myNav" class="overlay1">
+         <!-- Close button -->
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <!-- Overlay content -->
+         <div class="overlay-content">
+            <a href="#">Cart</a>
+            <a href="#">Settings</a>
+            <a href="#">Contact</a>
+         </div>
+      </div>
+      <!-- Modal search -->
+      <div id="myNav2" class="overlay2">
+         <!-- Close button -->
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+         <!-- Overlay content -->
+         <div class="overlay-content1">
+            <input type="text" placeholder="Search on this website">
+            <div class="but-search"></div>
+         </div>
+      </div>
+      <header>
+         <nav>
+            <div class="nav-container">
+               <a class="logo" href=""></a>
+               <a href="">Decks</a>
+               <a href="">Bearings</a>
+               <a href="">Wheels</a>
+               <a href="">Trucks</a>
+               <a href="">Accessories</a>
+               <a href="">Shoes</a>
+               <a href="">Support</a>
+               <i class="ion-ios-search" onclick="openNav1()"></i>
+               <a href="">
+                  <i class="ion-ios-cart-outline">
+                     <div class="notif"></div>
+                  </i>
+               </a>
+               <div class="user-icon" onclick="openNav()"></div>
+            </div>
+         </nav>
+         <div class="overlay">
+            <img src="assets/img/truck.svg" class="skate" width="100">
+            <h1>SKATE SMART:</h1>
+            <h1>KNOW YOUR SKILL LEVEL AND SKATING CONDITIONS</h1>
+            <p>You are always safer wearing a helmet and full protective gear</p>
+            <div class="but"></div>
+         </div>
+      </header>
+      <section class="logos">
+         <div class="row">
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-1"></div>
+               </a>
+            </div>
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-2"></div>
+               </a>
+            </div>
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-3"></div>
+               </a>
+            </div>
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-4"></div>
+               </a>
+            </div>
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-5"></div>
+               </a>
+            </div>
+            <div class="col-md-2">
+               <a href="">
+                  <div class="log log-6"></div>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!--<section class="full-width-content">
+         <div class="overlay-full-width">
+            <img src="assets/img/skate.svg" class="skate" width="200">
+            <h1>Checkout our special offers</h1>
+            <p>Now your dreams can come true. <span class='reg'>We have everything you want</span></p>
+            <div class="but-special"></div>
+         </div>
+         </section>-->
+      <div class="row">
+         <a href="">
+            <div class="col-md-6">
+               <div class="items item-5"></div>
+               <div class="placeholder">
+                  Shoes
+               </div>
+            </div>
+         </a>
+         <a href="">
+            <div class="col-md-6">
+               <div class="items item-6"></div>
+               <div class="placeholder">
+                  Clothes
+               </div>
+            </div>
+         </a>
+      </div>
+      <div class="row">
+         <a href="">
+            <div class="col-md-3">
+               <div class="items item-1"></div>
+               <div class="placeholder">
+                  Bearings
+               </div>
+            </div>
+         </a>
+         <a href="">
+            <div class="col-md-3">
+               <div class="items item-2"></div>
+               <div class="placeholder">
+                  Wheels
+               </div>
+            </div>
+         </a>
+         <a href="">
+            <div class="col-md-3">
+               <div class="items item-3"></div>
+               <div class="placeholder">
+                  Trucks
+               </div>
+            </div>
+         </a>
+         <a href="">
+            <div class="col-md-3">
+               <div class="items item-4"></div>
+               <div class="placeholder">
+                  Decks
+               </div>
+            </div>
+         </a>
+      </div>
+      <section class="skater">
+         <img src="assets/img/skater4.gif" class="skater-img" width="300">
+         <div class="overlay-skater">
+            <h1>Skaters meeting right in your city</h1>
+            <p>Meet all the skaters in the country in one place. You can be one of them.</p>
+            <div class="but-meeting"></div>
+         </div>
+      </section>
+      <section class="news">
+         <div class="row">
+            <div class="col-md-4 news-padding">
+               <h2 class="news-title">Amazing news</h2>
+               <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <div class="but-news"></div>
+            </div>
+            <div class="col-md-4 news-padding">
+               <h2 class="news-title">We're back</h2>
+               <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <div class="but-news"></div>
+            </div>
+            <div class="col-md-4 news-padding">
+               <h2 class="news-title">Can you do this?</h2>
+               <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <div class="but-news"></div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <div class="footer">
+         <div class="container">
+            <div class="social-holder">
+               <a href='#'><i class="ion-social-foursquare"></i></a>
+               <a href='#'><i class="ion-social-facebook"></i></a>
+               <a href='#'><i class="ion-social-twitter"></i></a>
+               <a href='#'><i class="ion-social-youtube"></i></a>
+               <a href='#'><i class="ion-social-googleplus"></i></a>
+               <a href='#'><i class="ion-social-vimeo"></i></a>
+               <a href='#'><i class="ion-social-instagram"></i></a>
+               <a href='#'><i class="ion-social-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+      <script src="assets/js/app.js"></script>
+      <script src="assets/js/vegas.min.js"></script>
+      <script>
+         $(function() {
+            $('header').vegas({
+                slides: [
+                	{ src: 'assets/img/test.gif' },
+                	{ src: 'assets/img/test2.gif' },
+                	{ src: 'assets/img/test4.gif' },
+                	{ src: 'assets/img/test3.gif' }
+                ],
+                 transition: 'fade',
+                 overlay: 'assets/img/overlays/06.png'
+            });
+         });
+      </script>
+   </body>
+</html>
