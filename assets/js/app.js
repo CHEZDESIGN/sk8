@@ -27,3 +27,14 @@ function openNav1() {
 function closeNav1() {
     document.getElementById("myNav2").style.height = "0%";
 }
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 2) {
+            $('nav').addClass('sticky');
+        }
+        else {
+            $('nav').removeClass('sticky');
+        }
+    });
+});
